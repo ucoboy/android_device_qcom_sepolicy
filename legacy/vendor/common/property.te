@@ -89,6 +89,8 @@ vendor_restricted_prop(vendor_alarm_boot_prop);
 
 vendor_restricted_prop(vendor_wifi_ftmd_prop);
 
+vendor_internal_prop(vendor_wifi_version);
+
 # WIGIG
 vendor_internal_prop(vendor_wigig_prop);
 vendor_internal_prop(vendor_ctl_vendor_wigigsvc_prop);
@@ -185,6 +187,3 @@ vendor_restricted_prop(vendor_qvr_prop);
 vendor_internal_prop(vendor_cap_configstore_dbg_prop);
 
 vendor_internal_prop(vendor_dcvs_prop);
-
-# Wifi version recorder
-type vendor_wifi_version, property_type;
